@@ -20,7 +20,7 @@ A Laravel + Vue.js application with multi-auth (Admin & User) and posts manageme
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/your-username/multi-auth-posts.git
+    git clone https://github.com/MahmoudMoh1499/multi-auth-posts.git
     cd multi-auth-posts/backend
     ```
 
