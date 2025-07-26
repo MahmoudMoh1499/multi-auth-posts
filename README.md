@@ -104,6 +104,11 @@ This collection covers:
 - Sanctum is used for API authentication.
 - Policies ensure only owners or admins can update/delete posts.
 
+
+## Demo
+
+Watch a demo of the application here: [https://youtu.be/wukqr5Hd4i8](https://youtu.be/wukqr5Hd4i8)
+
 ## License
 
 MIT
