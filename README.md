@@ -68,14 +68,21 @@ A Laravel + Vue.js application with multi-auth (Admin & User) and posts manageme
 ## Usage
 
 - Visit [http://localhost:8000](http://localhost:8000) for the backend.
-- Visit [http://localhost:5173](http://localhost:5173) for the Vue frontend (if using Vite default port).
-- Register/login as User or Admin to manage posts.
+- login as User or Admin to manage posts.
+
+
+## Testing
+
+To run the feature tests:
+
+```bash
+php artisan test
+```
 
 ## Notes
 
 - Sanctum is used for API authentication.
 - Policies ensure only owners or admins can update/delete posts.
-- See `config/auth.php` and `config/sanctum.php` for guard setup.
 
 ## License
 
