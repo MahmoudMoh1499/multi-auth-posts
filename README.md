@@ -79,6 +79,26 @@ To run the feature tests:
 php artisan test
 ```
 
+## API Testing
+
+A ready-to-use Postman collection is included for testing all API endpoints:
+
+- **File:** `Laravel Vue Multi-Auth Posts API.postman_collection.json`
+
+### How to Use
+
+1. Open [Postman](https://www.postman.com/).
+2. Click **Import** and select the `Laravel Vue Multi-Auth Posts API.postman_collection.json` file from the project root.
+3. Set the `base_url` variable to your backend URL (default: `http://localhost:8000`).
+4. Use the provided requests to test authentication and posts management for both Admin and User roles.
+5. After logging in, copy the returned token into the `admin_token` or `user_token` variable in Postman to authorize further requests.
+
+---
+
+This collection covers:
+- Admin and User login/logout
+- CRUD operations for posts (as Admin and User)
+
 ## Notes
 
 - Sanctum is used for API authentication.
